@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T16:54:14.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Dadiq_ZLimG4HGXvhx0c" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T17:03:02.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="051jQHui0Hc6Xcw-zbhJ" version="21.6.5" type="github">
   <diagram name="Page-1" id="gfGlwEMGmDlHoKh-awRl">
-    <mxGraphModel dx="1259" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3148" dy="1665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,6 +169,9 @@
         <mxCell id="BUs_5w1TpyVjr6DcVBMl-43" value="Trailer No" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="360" y="1100" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BUs_5w1TpyVjr6DcVBMl-45" target="BUs_5w1TpyVjr6DcVBMl-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BUs_5w1TpyVjr6DcVBMl-45" value="Transportation Cost" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="360" y="1180" width="120" height="40" as="geometry" />
         </mxCell>
@@ -181,13 +184,13 @@
             <mxPoint x="110" y="1040" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BUs_5w1TpyVjr6DcVBMl-49" value="from&amp;nbsp;Trailer table" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1085" width="120" height="70" as="geometry" />
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-49" value="from&amp;nbsp;Transporters table" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1245" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BUs_5w1TpyVjr6DcVBMl-50" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BUs_5w1TpyVjr6DcVBMl-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="1150" as="sourcePoint" />
-            <mxPoint x="480" y="1120" as="targetPoint" />
+            <mxPoint x="400" y="1310" as="sourcePoint" />
+            <mxPoint x="480" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BUs_5w1TpyVjr6DcVBMl-51" value="from trucks table" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
@@ -198,6 +201,34 @@
             <mxPoint x="400" y="990" as="sourcePoint" />
             <mxPoint x="480" y="960" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-53" value="auto complete and depends on the status" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1165" width="140" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-54" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BUs_5w1TpyVjr6DcVBMl-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="1230" as="sourcePoint" />
+            <mxPoint x="360" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-55" value="Driver Expenses" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-56" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="BUs_5w1TpyVjr6DcVBMl-55" parent="1" target="BUs_5w1TpyVjr6DcVBMl-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-58" value="Save" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="BUs_5w1TpyVjr6DcVBMl-58" parent="1" target="BUs_5w1TpyVjr6DcVBMl-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BUs_5w1TpyVjr6DcVBMl-60" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1450" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
